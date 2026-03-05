@@ -3,7 +3,7 @@ import toast from 'react-hot-toast';
 
 const api = axios.create({
     baseURL: import.meta.env.VITE_API_BASE_URL,
-    timeout: 30000,
+    timeout: 50000,
 });
 
 api.interceptors.request.use((config) => {
